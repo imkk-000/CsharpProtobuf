@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package CsharpProtobuf;
+
+message LoginPacket {
+    uint32 code = 1;
+    uint32 size = 2;
+    uint32 sizeOfUsername = 3;
+    string username = 4;
+    uint32 sizeOfPassword = 5;
+    string password = 6;
+}
