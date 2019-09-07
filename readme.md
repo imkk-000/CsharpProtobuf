@@ -9,6 +9,12 @@
 - SizeOfPassword
 - Password
 
+## How to compile protobuf
+
+```sh
+protoc --csharp_out=. protos/*
+```
+
 ## How to install protobuf package from NuGet
 
 ```sh
