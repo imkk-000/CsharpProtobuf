@@ -2,12 +2,14 @@
 
 ## Simple Protobuf - LoginPacket
 
-- Code
-- Size
-- SizeOfUsername
-- Username
-- SizeOfPassword
-- Password
+| name | type |
+|---|---|
+| Code | uint32
+| Size | uint32
+| SizeOfUsername | uint32
+| Username | string
+| SizeOfPassword | uint32
+| Password | string
 
 ## How to compile protobuf
 
@@ -20,4 +22,3 @@ protoc --csharp_out=. protos/*
 ```sh
 dotnet add package Google.Protobuf --version 3.9.1
 ```
-
